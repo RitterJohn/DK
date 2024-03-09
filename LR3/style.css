@@ -1,0 +1,35 @@
+h1 {
+    font-size: 26px;
+    color: red;
+}
+
+p#lorem {
+    color: white;
+    background-color: blue;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+p span{
+    color: red;
+}
+
+h2 {
+    color: white;
+    background-color: green;
+    font-size: 20px;
+}
+
+.haupt {
+    padding: 40px;
+}
+
+.absatz {
+    text-indent: 30px;
+}
+
+li {
+    border: 1px solid black;
+    font-weight: bold;
+}
