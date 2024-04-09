@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="main.css" />
+
+</head>
+<body>
+    <p>Выберите уровень сложности:</p>
+    <form>
+        <div>
+        <input id="r1" type="radio" name="level" checked="checked">Простой (От 1 до 100. 5 попыток)
+        </div>
+        <div>
+        <input id="r2" type="radio" name="level">Средний (От 1 до 100. 7 попыток)
+        </div>
+        <div>
+        <input id="r3" type="radio" name="level">Сложный (От 1 до 1000. 12 попыток)
+        </div>
+        <div>
+        <button type="button" onclick="game()">play</button>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
