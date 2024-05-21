@@ -1,0 +1,62 @@
+body {
+    font-family: Ubuntu, sans-serif;
+}
+
+.navigate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBar {
+    display: flex;
+    width: 450px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+
+}
+
+.var {
+    padding: 0 8px;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+.var:hover {
+    color: rgb(250, 122, 2);
+}
+
+.meas{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(250, 122, 2);
+    width: 160px;
+    height: 38px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.calc{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(72, 18, 96);
+    width: 160px;
+    height: 38px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text {
+    margin: 50px 30px;
+}
